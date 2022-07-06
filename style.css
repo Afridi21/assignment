@@ -23,52 +23,8 @@
     margin: 0%;
     margin-top: 10%;
 }
-.depend{
-   display:flex;
-    width:50%;
-}
-.text-2{
-    display: flex;
-    margin-left: 5%;
-}
-.text-3{
-    display: flex;
-    width: ;
-    font-size: x-large;
-}
 .img{
     margin-left:100%;
-}
-.container{
-    position: relative;
-    width: 1200px;
-    height: 300px;
-    margin:240px auto;
-}
-.container .box{
-    position: relative;
-    width: calc(400px - 30px);
-    height: calc(300px - 30px);
-    background: bisque;
-    float: left;
-    margin: 15px;
-    box-sizing: border-box;
-    overflow: hidden;
-    border-radius:10px ;
-    text-align:justify;
-}
-.boxes{
-    text-align: center;
-    margin-top: -25%;
-}
-.box{
-    background-color: burlywood;
-}
-.{
-    position: relative;
-    width: 1200px;
-    height: 300px;
-    margin:240px auto;
 }
 .last-part{
     text-align: center;
@@ -119,4 +75,127 @@
     padding: 10px 10px;
     background-color: deeppink;
     border-radius: 5%;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+
+    text-transform: capitalize;
+}
+.button {
+    padding: 15px 40px;
+    color: white;
+    background-color: red;
+
+    text-decoration: none;
+
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    text-transform: capitalize;
+}
+.second-part {
+    width: 60%;
+    margin: auto;
+    padding: 50px 0;
+}
+
+
+.second-donate h1 {
+    font-size: 50px;
+    text-align: center;
+    color: #333;
+    line-height: 100px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.second-donate p {
+    text-align: center;
+    font-size: 18px;
+    padding: 0 150px;
+}
+
+.box {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.tk {
+    padding: 25px 40px;
+    background: #ddd;
+    margin-left: 1%;
+    margin-right: 1%;
+    border-radius: 5px;
+
+}
+
+.taka {
+    padding: 25px 40px;
+    background: #FFEEEE;
+    margin-left: 1%;
+    margin-right: 1%;
+    border: 3px solid red;
+    border-radius: 5px;
+}
+
+
+.donate-taka {
+    margin-top: 100px;
+    border: none;
+    color: #ddd;
+    margin: auto;
+    display: block;
+    font-size: 18px;
+
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.donation h1 {
+    font-size: 50px;
+    text-align: center;
+    color: #333;
+    line-height: 100px;
+    font-weight: 600;
+    margin-bottom: 0;
+    margin-top: 100px;
+}
+
+.donation p {
+    text-align: center;
+    font-size: 18px;
+    padding: 0 250px;
+    color: #666;
+    margin-bottom: 50px;
+}
+
+.donation-box {
+    display: flex;
+    width: 80%;
+    margin: auto;
+
+}
+
+.donation-box-box {
+    padding: 70px 30px 50px 30px;
+    margin-left: 1%;
+    margin-right: 1%;
+    border-radius: 5px;
+}
+
+.donation-box-box h3 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.donation-box-box p {
+    color: #666;
+}
+
+.donation-box-box-box i {
+    font-size: 50px;
 }

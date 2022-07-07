@@ -1,3 +1,4 @@
+/*page-1*/
 .bg-img{
     background-image: url('images/donation6.jpg');
     height: 100vh;
@@ -29,6 +30,13 @@ body {
 
     text-transform: capitalize;
 }
+/*page1 finish*/
+/*page2 strat*/
+.second-part {
+    width: 60%;
+    margin: auto;
+    padding: 50px 0;
+}
 .link-2 {
     padding: 15px 40px;
     color: white;
@@ -41,13 +49,6 @@ body {
     border-radius: 5px;
     text-transform: capitalize;
 }
-.second-part {
-    width: 60%;
-    margin: auto;
-    padding: 50px 0;
-}
-
-
 .Top h1 {
     font-size: 50px;
     text-align: center;
@@ -97,7 +98,8 @@ body {
     font-size: 18px;
 
 }
-
+/*page-2* finish*/
+/*page-3 start*/
 .container {
     width: 80%;
     margin: auto;
@@ -117,12 +119,14 @@ body {
     text-align: center;
     font-size: 18px;
     padding: 0 250px;
-    color: #666;
+    color:cadetblue;
     margin-bottom: 50px;
 }
 .third part{
     margin-top: -5%;
 }
+/*page-3 finish*/
+/*page-4 start*/
 .new{
     background-color:bisque;
     display: flex;
@@ -148,43 +152,46 @@ body {
 .new-link{
     text-decoration: none;
     padding: 10px 10px;
-    background-color: deeppink;
+    background-color:chartreuse;
     border-radius: 5%;
 }
+/*page-4 finish*/
+/*page-5 start*/
 .fourth-part{
     margin-top: 5%;
 
 }
-.donation-box {
+.donate-box {
     display: flex;
     width: 80%;
     margin: auto;
 
 }
 
-.donation-boxes {
+.donate-boxes {
     padding: 70px 30px 50px 30px;
     margin-left: 1%;
     margin-right: 1%;
     border-radius: 5px;
 }
 
-.donation-boxes h3 {
+.donate-boxes h3 {
     font-size: 25px;
     font-weight: 600;
 }
 
-.donation-boxes p {
-    color: #666;
+.donate-boxes p {
+    color:cadetblue;
 }
 
-.donation-boxes i {
+.donate-boxes i {
     font-size: 50px;
 }
 .container {
     text-align: center;
 }
-
+/*page-5 finish*/
+/*page-6 start*/
 .updates{
     padding-left: 20%;
     padding-right: 20%;
@@ -211,8 +218,9 @@ body {
     color:darkgreen;
     font-weight: bold;
 }
-
-.subscribe {
+/*page-6 finish*/
+/*page-7 start*/
+.part-five {
     background-color:crimson;
     border-radius: 2px;
     border: none;
@@ -222,7 +230,7 @@ body {
     margin-left: -30px;
 }
 
-.subscribe a {
+.part-five a {
     text-decoration: none;
     color: whitesmoke;
 }
@@ -242,6 +250,7 @@ footer p {
     color: white;
 }
 
-.be-humble {
+.be{
     color: crimson;
 }
+/*page-7 finish*/
